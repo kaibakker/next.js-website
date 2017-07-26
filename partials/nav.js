@@ -7,17 +7,19 @@ export default class Nav extends React.Component {
     return (
       <nav className="nav" style={ S('absolute w-100p text-center z-1 h-60') }>
         <ul>
+
           <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/about">About</Link>
+            <Link href="/">getsolidity.com</Link>
           </li>
           <li>
             <Link href="/"><i className="logo"></i></Link>
           </li>
           <li>
-            <Link href="/work">Work</Link>
+            <Link href="/about">academy</Link>
+          </li>
+
+          <li>
+            <Link href="/work">consulting</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>
