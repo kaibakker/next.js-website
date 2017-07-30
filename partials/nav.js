@@ -15,14 +15,14 @@ export default class Nav extends React.Component {
             <Link href="/"><i className="logo"></i></Link>
           </li>
           <li>
-            <Link href="/about">academy</Link>
+            <Link href="/academy">academy</Link>
           </li>
 
           <li>
-            <Link href="/work">consulting</Link>
+            <Link href="/consulting">consulting</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">contact</Link>
           </li>
         </ul>
       </nav>

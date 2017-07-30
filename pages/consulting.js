@@ -1,7 +1,7 @@
 import React from 'react'
 import BasicPage from '../templates/basic-page'
 import Cosmic from '../models/cosmic'
-export default class Contact extends React.Component {
+export default class Consulting extends React.Component {
   static async getInitialProps () {
     return await Cosmic.getPage('about')
   }
